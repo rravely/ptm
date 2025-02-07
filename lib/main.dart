@@ -35,7 +35,7 @@ class _MainScreenState extends State<MainScreen> {
   final List<Widget> _screens = [
     const HomeScreen(),
     const CalendarScreen(),
-    const SettingsScreen(),
+    SettingsScreen(),
   ];
 
   void _onItemTapped(int index) {
